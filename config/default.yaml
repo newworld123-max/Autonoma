@@ -1,0 +1,25 @@
+# Default configuration for Autonoma
+
+# General settings
+debug: false
+trace: false
+
+# LLM settings
+llm:
+  provider: openai
+  model: gpt-4o
+  temperature: 0.7
+  max_tokens: 4096
+  top_p: 1.0
+  frequency_penalty: 0.0
+  presence_penalty: 0.0
+
+# Agent settings
+agent:
+  max_steps: 10
+  thinking_depth: 2
+  duplicate_threshold: 2
+  memory_limit: 50
+
+# Web3 settings
+solana_rpc: https://api.mainnet-beta.solana.com
